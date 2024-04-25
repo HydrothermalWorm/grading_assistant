@@ -57,7 +57,7 @@ class GradingAssistant:
                       f'        ',
                       f'{self.grade_values[keys_0][keys_1]}',
                       f'/',
-                      f'{self.rubric_dict[keys_0].get(keys_1)}:',
+                      f'{self.rubric_dict[keys_0].get(keys_1)}',
                       f'{self.critiques[keys_0][keys_1]}'
                       )
                 final_score += self.grade_values[keys_0].get(keys_1)
